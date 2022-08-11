@@ -1,0 +1,19 @@
+vector:
+    push_back()
+    find() #include <algorithm>
+    reverse()
+    sort() #include <algorithm>
+    erase();
+
+
+list:
+    push_front()
+    push_back()
+    pop_front()
+    pop_back()
+    find() #include <algorithm>
+    reverse()
+    clear()
+    sort() #inclue <algorithm>
+    erase()
+    insert()
