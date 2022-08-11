@@ -16,9 +16,10 @@ int main()
     numberList.push_front(23.45);
     numberList.push_front(12.45);
 
+
     for (listItem = numberList.begin(); listItem != numberList.end(); listItem++)
     {
-        cout << *listItem << "   ";
+        cout << *listItem << "  ";
     }
     cout << endl;
     
