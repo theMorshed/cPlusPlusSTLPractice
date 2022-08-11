@@ -38,5 +38,16 @@ int main()
     }
     cout << endl;
 
+    // sort vector using sort function from index 3 to end 
+    sort(numbers.begin()+3, numbers.end());
+
+    // print the whole vector using iterator
+    cout << "All sorted numbers: ";
+    for(num = numbers.begin(); num != numbers.end(); num++)
+    {
+        cout << *num << "   ";
+    }
+    cout << endl;
+
     return 0;
 }
